@@ -33,7 +33,6 @@ def clean(lyrics):
 
 def analyse(lyrics):
     words = clean(lyrics)
-    print(words)
     analysis = TextBlob(words)
     # set sentiment
     if analysis.sentiment.polarity > 0:

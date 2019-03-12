@@ -70,8 +70,8 @@ def get_lyrics_by_artist(name):
     return list(map(get_lyric_by_track, track_ids))
 
 
-if __name__ == '__main__':
-    lyrics = get_lyrics_by_artist("ed sheeran")
+def get_lyrics_and_analyse(name):
+    lyrics = get_lyrics_by_artist(name)
     res = analyse(lyrics)
-    print(res)
+    return res
 
