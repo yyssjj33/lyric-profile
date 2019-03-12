@@ -6,7 +6,7 @@ from api.lyrics import get_lyrics_and_analyse
 @click.option('--name', required=True, help='the name of the singer')
 def run(name):
     res = get_lyrics_and_analyse(name)
-    print("{}'s song is more {}".format(name, res))
+    print("{}'s songs are more {}".format(name, res))
 
 
 if __name__ == '__main__':

@@ -47,7 +47,7 @@ def get_tracks_by_album(album_id):
     if resp.json()["message"]["header"]["status_code"] == 200:
         if len(resp.json()["message"]["body"]["track_list"]) == 0:
             return []
-        return list(map(lambda x: x["track"]["track_id"], resp.json()["message"]["body"]["track_list"]))[0:1]
+        return list(map(lambda x: x["track"]["track_id"], resp.json()["message"]["body"]["track_list"]))
     else:
         return []
 

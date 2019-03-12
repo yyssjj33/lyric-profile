@@ -5,8 +5,12 @@ give a singer's name and find if his or her lyric is positive or negative
 
 ## Example command
 ```
+(venv) ➜  lyric-profile git:(master) python cli.py --name="Jason Mraz"
+Jason Mraz's songs are more positive
+
+
 (venv) ➜  lyric-profile git:(master) ✗ python cli.py --name="eminem"   
-eminem's song is negative
+eminem's songs are more negative
 
 ```
 
