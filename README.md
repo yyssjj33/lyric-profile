@@ -22,4 +22,4 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 ```
-have fun!
+have fun! nice day
