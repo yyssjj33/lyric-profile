@@ -1,7 +1,6 @@
 import click
 from api.lyrics import get_lyrics_and_analyse
 
-
 @click.command()
 @click.option('--name', required=True, help='the name of the singer')
 def run(name):
