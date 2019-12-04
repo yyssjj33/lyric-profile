@@ -62,7 +62,6 @@ def get_lyric_by_track(track_id):
     else:
         return None
 
-
 def get_lyrics_by_artist(name):
     artist_id = get_artist(name)
     album_ids = get_albums_by_artist(artist_id)
